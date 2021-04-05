@@ -1,7 +1,7 @@
 let pokemonList = [
-  {name: 'Charizard', height: 1.7, types: ['fire','flying']},
-  {name: 'Blastoise', height: 1.6, types: ['water']},
-  {name: 'Zapdos', height: 1.6, types: ['electric','flying']}
+  {name: 'Bulbasaur', height: 0.7, types: ['grass','poison']},
+  {name: 'Charmeleon', height: 1.1, types: ['fire']},
+  {name: 'Blastoise', height: 1.6, types: ['water']}
 ];
 
 for (let i = 0; i < pokemonList.length; i++){
