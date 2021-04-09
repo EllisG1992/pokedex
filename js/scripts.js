@@ -1,4 +1,5 @@
-let pokemonList = [
+let pokemonRepository = (function (){
+  let pokemonList = [
   {
     name: 'Bulbasaur',
     height: 0.7,
@@ -15,6 +16,8 @@ let pokemonList = [
     types: ['water']
   }
 ];
+})();
+
 
 pokemonList.forEach(function(pokemon){
   console.log(pokemon.name + ' is ' + pokemon.height + ' m tall and has type(s): ' + pokemon.types);
