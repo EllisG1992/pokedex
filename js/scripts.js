@@ -16,6 +16,19 @@ let pokemonRepository = (function (){
     types: ['water']
   }
 ];
+
+  function getAll(){
+    return pokemonList;
+  }
+
+  function add(){
+    pokemonList.push(pokemon);
+  }
+
+  return{
+    getAll: getAll,
+    add: add
+  };
 })();
 
 
