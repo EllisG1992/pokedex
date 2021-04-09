@@ -21,8 +21,8 @@ let pokemonRepository = (function (){
     return pokemonList;
   }
 
-  function add(pokemon){
-    pokemonList.push(pokemon);
+  function add(item){
+    pokemonList.push(item);
   }
 
   return{
