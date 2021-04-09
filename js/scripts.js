@@ -16,15 +16,6 @@ let pokemonList = [
   }
 ];
 
-for (let i = 0; i < pokemonList.length; i++){
-  let pokemon = pokemonList[i];
-
-  let message = `${pokemon.name} (height: ${pokemon.height})`;
-
-  if(pokemon.height > 1.5){
-    message = message + ' Wow, that\'s big!';
-  }
-
-  document.write(message);
-  document.write('<br><br>');
-}
+pokemonList.forEach(function(pokemon){
+  console.log(pokemon.name + ' is ' + pokemon.height + ' m tall and has type(s): ' + pokemon.types);
+});
