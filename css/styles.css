@@ -36,3 +36,7 @@ h1{
   color: black;
   border: 2px solid #DD4B39;
 }
+
+.pokemon-list{
+  list-style-type: none;
+}
