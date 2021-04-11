@@ -37,6 +37,10 @@ let pokemonRepository = (function (){
     let unorderedList = document.querySelector('.pokemon-list');
   }
 
+  function showDetails(pokemon){
+    console.log(pokemon);
+  }
+
   return{
     getAll: getAll,
     add: add,
