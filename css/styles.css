@@ -18,3 +18,21 @@ h1{
  margin-top:-25%;
 
 }
+
+/*styling for pokemon buttons exercise 1.6 */
+.button-class {
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  max-width: 100%;
+  height: auto;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #cecece;
+  color: black;
+  border: 2px solid #DD4B39;
+}
