@@ -40,5 +40,6 @@ pokemonRepository.getAll().forEach(function(pokemon){
 
   button.classList.add('button-class');
   listItem.appendChild(button);
+  unorderedList.appendChild(listItem);
   //exercise 1.6 (deleted document.write code)
 });
