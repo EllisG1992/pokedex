@@ -39,5 +39,6 @@ pokemonRepository.getAll().forEach(function(pokemon){
   button.innerText = pokemon.name;
 
   button.classList.add('button-class');
+  listItem.appendChild(button);
   //exercise 1.6 (deleted document.write code)
 });
