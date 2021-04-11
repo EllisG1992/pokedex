@@ -35,5 +35,7 @@ let pokemonRepository = (function (){
 pokemonRepository.getAll().forEach(function(pokemon){
   let unorderedList = document.querySelector('.pokemon-list'); //new variable exercise 1.6
   let listItem = document.createElement('li'); //new variable - exercise 1.6
+  let button = document.createElement('button'); //new variable exercise 1.6
+  button.innerText = pokemon.name;
   //exercise 1.6 (deleted document.write code)
 });
