@@ -33,6 +33,7 @@ let pokemonRepository = (function (){
 
 
 pokemonRepository.getAll().forEach(function(pokemon){
+  let unorderedList = document.querySelector('.pokemon-list'); //exercise 1.6
   console.log(pokemon.name + ' is ' + pokemon.height + ' m tall and has type(s): ' + pokemon.types);
   document.write('<p>' + pokemon.name + ' is ' + pokemon.height + ' m tall and has type(s): ' + pokemon.types+
   '</p>');
