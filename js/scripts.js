@@ -37,5 +37,7 @@ pokemonRepository.getAll().forEach(function(pokemon){
   let listItem = document.createElement('li'); //new variable - exercise 1.6
   let button = document.createElement('button'); //new variable exercise 1.6
   button.innerText = pokemon.name;
+
+  button.classList.add('button-class');
   //exercise 1.6 (deleted document.write code)
 });
