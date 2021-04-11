@@ -23,18 +23,20 @@ let pokemonRepository = (function (){
 
   function add(item){
     pokemonList.push(item);
-    let unorderedList = document.querySelector('.pokemon-list'); //new variable exercise 1.6
-    let listItem = document.createElement('li'); //new variable - exercise 1.6
-    let button = document.createElement('button'); //new variable exercise 1.6
-    button.innerText = pokemon.name;
-
-    button.classList.add('button-class');
-    listItem.appendChild(button);
-    unorderedList.appendChild(listItem);
   }
 
   function addListItem(pokemon){
     let unorderedList = document.querySelector('.pokemon-list');
+    let unorderedList = document.querySelector('.pokemon-list'); //new variable exercise 1.6
+    let listItem = document.createElement('li'); //new variable - exercise 1.6
+    let button = document.createElement('button'); //new variable exercise 1.6
+    button.innerText = pokemon.name;
+    button.classList.add('button-class');
+    listItem.appendChild(button);
+    unorderedList.appendChild(listItem);
+    button.addEventListener('click', function (event) {
+      showDetails(pokemon.name);
+    });
   }
 
   function showDetails(pokemon){
