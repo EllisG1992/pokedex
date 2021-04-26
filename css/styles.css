@@ -1,13 +1,9 @@
-
-
-
 #pokedex_box_a{
  display: grid;
  grid-template-rows: 1fr 1fr;
  justify-content: center;
 
 }
-
 
 
 h1{
@@ -39,6 +35,7 @@ h1{
 
 .pokemon-list{
   list-style-type: none;
+  text-align: center;
 }
 
 body {
