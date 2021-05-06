@@ -35,7 +35,7 @@ let pokemonRepository = (function (){
     modal.appendChild(myImage);
 
     modalContainer.appendChild(modal);
-    modalContainer.appendChild(myImage);
+    
 
     //imageContainer.appendChild(myImage);
 
